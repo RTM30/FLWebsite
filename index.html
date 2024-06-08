@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Florida - Home</title>
+		<link rel="stylesheet" href="Theme.css">
+<style>
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+}
+
+aside {
+  float: right;
+  color: gray;
+  border: 1px solid;
+  margin-top:80px;
+  margin-left: 150px;
+  border: 1px;
+  background-color: white;
+  border-style: solid;
+}
+
+#account {
+	background-color: pink;
+	border-style: groove;
+	padding: 10px;
+}
+
+
+</style>
+	</head>
+<!-- Nav Bar -->
+		<nav>
+			<a href="index.html">Home</a> |
+			<a href="Saint_Augustine.html">St. Augustine</a> |
+			<a href="Jacksonville.html">Jacksonville</a> |
+			<a href="Palatka.html">Palatka</a>
+		</nav>
+		
+		<br><br>
+
+<script>
+function accountCreation() {
+if (document.getElementById("email1").value==null || document.getElementById("email1").value=="") {
+alert("Please enter your e-mail in both e-mail boxes.");
+} else if  (document.getElementById("email1").value == document.getElementById("email2").value) {
+  alert("E-mails match. Account submitted.");
+ } else {
+  alert("Please make sure your e-mails match");
+ }
+};
+</script>
+<!-- Form -->
+<form style="float: right;" id="account" onsubmit="accountCreation()">
+	<h4>Create Account</h4>
+	<label>First name:</label>
+	<input type="text" placeholder="First Name" style="float: right;">
+	<br>
+	<br>
+	<label>Last name:</label>
+	<input type="text" placeholder="Last Name" style="float: right;">
+	<br>
+	<br>
+	<label>E-mail:</label>
+	<input type="text" placeholder="E-mail" style="float: right;" id="email1">
+	<br>
+	<br>
+	<label>Verify E-mail:</label>
+	<input type="text"  placeholder="E-mail" label="E-mail" id="email2">
+<br><br>
+	<input type="submit" position:"absolute" right:"0px">
+
+</form>
+
+<br><br><br><br><br><br><br><br><br><br>
+
+<!-- Aside Message -->
+<div style="display: block">
+<aside>
+<h2 style="text-align: center"> Advisory Alert</h2>
+<ul>
+<li style="padding: 10px">Florida is very hot so remember to bring sunscreen! </li>
+<li style="padding: 10px">June to November is hurricane season. </li>
+</ul>
+<br>
+
+<ol>
+<h3 >Top 3 mistakes made by tourists visiting FL</h3>
+<li style="padding: 10px">Not wearing sunscreen (or not enough!) </li>
+<li style="padding: 10px">Not wearing bug spray. </li>
+<li style="padding: 10px">Not going to a local seafood restaurant. </li>
+</ol>
+</aside>
+<div>
+
+<!-- Body Message -->
+		<h1 class ="introText" style="text-align: center">Florida Homepage </h1>
+		<p style="text-indent: 25px">Thank you for your interst in Florida, the Sunshine State! Known for its beautiful beaches, great fishing, and palm trees! It's also known for Publix Supermarkets, which have excellent Boar's Head subs and fried chicken. </p>
+
+<!-- Table -->
+		<table>
+		<tr>
+		 <th>Population</th>
+		  <td>22.24 million</td>
+		</tr>
+		<tr>
+		 <th>State Bird</th>
+		   <td>northern mockingbird</td>
+		</tr>
+		<tr>
+		 <th>Motto</th>
+		 <td>In God We Trust</td>
+		</tr>
+		</table>
+
+
+
+<br><br>
+
+<!-- Image -->
+<figure>
+    <img src="Images\Florida.png" alt="Map of Florida" style="width:100%">
+    <figcaption>Map of Florida</figcaption>
+    <figcaption>source: https://en.wikipedia.org/wiki/Florida</figcaption>
+</figure>
+	
+	<br><br>
+	<div class ="footer">
+		<p style="margin: 0">Author: Richard Matthews</p>
+		<p style="display: inline">Contact:</p>
+		<a style="display: inline" href="mailto:rmat129@wgu.edu">rmat129@wgu.edu</a>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+
+
+body { background-color: AliceBlue;
+}
+
+input[type=submit] {
+	background-color: #F67280;
+	position: absolute;
+	right: 20px;
+	top: 274px;
+}
+
+table, th, td {
+	border: 1px solid;
+}
+
+table {
+  position: relative;
+  left: 20px;
+}
+
+nav { 
+	display: block;
+	border: 7px
+	padding: 30px;
+	background-color: #F67280;
+	text-align: center;
+}
+
+.introText {
+  font-family: "Arial", Times, serif;
+}
+
+p { 
+	color: red;
+}
+
+aside {
+      float:right;
+      color:whitesmoke;
+      font-style:italic;
+}
+	
+a { 
+	color:black;
+	font-size: 20px;
+}
+
+a:hover {
+	color:pink;
+}
+
+a:active {
+	background-color:red;
+}
+
+a:visited {
+  color: none;
+}
+
+a:link { 
+	text-decoration: none;
+}
+
+
+
+
+.footer {
+	color: black;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 10;
+}
